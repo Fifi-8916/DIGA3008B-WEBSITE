@@ -14,14 +14,23 @@ body{
     margin-right: 16px;
     display: flex;
     align-items: center;
-    line-height: 50px;
+    line-height: 47px;
 }
 
-nav ul li a{
+.main-nav ul li a{
     font-size: 24px;
     text-decoration: none;
     color: #2C2C2C;
     padding: 0 10px 0 10px;
+}
+
+.main-nav ul li{
+    margin: 0 15px 0 15px;
+}
+
+.main-nav ul li a:hover{
+    border: 2px solid #6750A4;
+    border-radius: 10px;
 }
 
 .main-nav ul{
@@ -37,8 +46,40 @@ nav ul li a{
     margin-top: 12px;
 }
 
+.main-footer .main-icon{
+    position: relative;
+    top:35px;
+    left: 16px;
+}
+
+.main-footer{
+    background: content-box linear-gradient(to right, #fff, #f4cae0 50%,#ada7c9 75%,#90a8c3 100%);
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+}
+
+.social-media-nav li{
+    float: right;
+    margin-right: 16px;
+    position: relative;
+    bottom: 42px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-nav ul li a{
+    padding: 0 15px 0 15px;
+}
+
 .hamburger-menu-icon{
     line-height: 30%;
+    display: none;
+    color: #49454f;
+}
+
+.social-media-icon{
+    width: 40px;
 }
 
 #check{
@@ -60,9 +101,13 @@ nav ul li a{
     }
 
     .hamburger-menu-icon{
-        line-height: 10vh;
+        line-height: 9vh;
         align-self: flex-end;
+        display: block;
     }
 
+    .social-media-nav li{
+        bottom: 50px;
+    }
 
 }
