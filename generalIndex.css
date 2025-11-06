@@ -86,6 +86,15 @@ body{
     display:none;
 }
 
+.search-bar button{
+    background: none;
+    border: none;
+}
+
+.search-bar input{
+    background-color: #ECE6F0;
+    border: none;
+}
 @media(max-width: 800px){
     .main-nav ul{
         flex-direction: column;
@@ -109,5 +118,7 @@ body{
     .social-media-nav li{
         bottom: 50px;
     }
+
+
 
 }
