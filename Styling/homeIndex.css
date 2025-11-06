@@ -6,8 +6,8 @@
     position: relative;
     display: flex;
     border-radius: 25px;
-    left: 38%;
-
+    left: 30%;
+    top: 4%;
 }
 
 .general-button {
@@ -19,8 +19,14 @@
 
 .options{
     position: relative;
-    left: 33%;
+    left: 34.5%;
+    width:fit-content;
+    top:12%;
+    display: flex;
+
 }
+
+
 
 @media(max-width:800px){
     .main-banner{

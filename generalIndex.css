@@ -94,6 +94,26 @@ body{
 .search-bar input{
     background-color: #ECE6F0;
     border: none;
+    font-size: 24px;
+    width:560px;
+
+}
+
+.search-bar i{
+    bottom: 4px;
+    position: relative;
+}
+
+.main-card-search{
+    background-color: #ECE6F0;
+    width: fit-content;
+    position: relative;
+    left: 29%;
+    top: 8%;
+    border: 5px solid #ECE6F0;
+    border-radius: 35px;
+    padding: 6px;
+    display: flex;
 }
 @media(max-width: 800px){
     .main-nav ul{
