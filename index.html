@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Princess+Sofia&family=Sulphur+Point:wght@300;400;700&family=Unkempt:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="/JavaScript/gsap.min.js"></script>
+    <script src="/JavaScript/Draggable.min.js"></script>
+    <script src="/JavaScript/InertiaPlugin.min.js"></script>
+    <script src="/JavaScript/Helper Scripts/horizontalLoop.js"></script>
     <link rel="stylesheet" href="generalIndex.css" />
     <link rel="stylesheet" href="Styling/homeIndex.css" />
     <meta charset="UTF-8" />
@@ -56,8 +60,10 @@
       <search class="main-card-search"
         ><label for="search" class="search-bar"
           ><input type="search" id="query" placeholder="Card name..." /><button>
-            <div class="magnifiying-glass-icon"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button></div>
-            </label
+            <div class="magnifiying-glass-icon">
+              <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+            </div>
+          </button> </label
       ></search>
     </div>
     <section class="options">
@@ -86,6 +92,20 @@
           <div class="set-image">
             <div class="set-backdrop">
               <figcation class="set-text">Set 3</figcation>
+            </div>
+          </div>
+        </figure>
+        <figure class="set-card">
+          <div class="set-image">
+            <div class="set-backdrop">
+              <figcation class="set-text">Set 4</figcation>
+            </div>
+          </div>
+        </figure>
+        <figure class="set-card">
+          <div class="set-image">
+            <div class="set-backdrop">
+              <figcation class="set-text">Set 5</figcation>
             </div>
           </div>
         </figure>
@@ -121,5 +141,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="/JavaScript/generalSetup.js"></script>
   </body>
 </html>
