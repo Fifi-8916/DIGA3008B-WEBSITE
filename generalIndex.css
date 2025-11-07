@@ -91,6 +91,11 @@ body{
     border: none;
 }
 
+.search-bar{
+    display: flex;
+
+}
+
 .search-bar input{
     background-color: #ECE6F0;
     border: none;
@@ -99,9 +104,21 @@ body{
 
 }
 
-.search-bar i{
-    bottom: 4px;
+.magnifiying-glass-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.magnifiying-glass-icon:hover{
+    background-color: #d3d3d3;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.magnifiying-glass-icon i{
     position: relative;
+    top: 15px;
 }
 
 .main-card-search{
@@ -121,8 +138,7 @@ body{
     }
 
     .main-nav{
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
 
     .hamburger-menu-icon{
