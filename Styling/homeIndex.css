@@ -26,6 +26,26 @@
 
 }
 
+.main-set-carousel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:13%;
+    align-items: center;
+}
+
+.carousel-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.set-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #ECE6F0;
+}
+
 
 
 @media(max-width:800px){
