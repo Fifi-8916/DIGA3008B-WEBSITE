@@ -4,19 +4,20 @@
     top: 4%;
     width:100%;
     justify-content: center;
+
 }
 
 .banner-image{
-    width: 580px;
-    height: 172px;
-    background-color: aqua;
+    width: 36.25rem;
+    height: 10.75rem;
+    border-radius: 0.925rem;
 }
 
 .general-button {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #2C2C2C;
-    padding: 0 10px 0 10px
+    padding: 0 0.625rem 0 0.625rem;
 }
 
 .options{
@@ -29,13 +30,13 @@
 .set-card{
 
     flex-shrink: 0;
-    padding: 5px;
+    padding: 0.3125rem;
 }
 
 .set-magic-card{
 
     flex-shrink: 0;
-    padding: 5px;
+    padding: 0.3125rem;
 }
 
 .main-set-carousel{
@@ -49,21 +50,18 @@
 
 }
 
-.carousel-container{
-    display: flex;
-    flex-direction: row;
-}
 
 .card-carousel{
     display: flex;
     flex-direction: row;
+    min-width: 2rem;
 }
 
 .next{
     background: none;
-    width: 48px;
-    height: 48px;
-    border-radius: 35px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2.1875rem;
     border: none;
 }
 
@@ -71,14 +69,14 @@
     background: #b5b5b5;
     color: white;
     border: 3px solid #b5b5b5;
-    border-radius: 35px;
+    border-radius: 2.1875rem;
 }
 
 .prev{
     background: none;
-    width: 48px;
-    height: 48px;
-    border-radius: 35px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2.1875rem;
     border: none;
 }
 
@@ -86,14 +84,14 @@
     background: #b5b5b5;
     color: white;
     border: 3px solid #b5b5b5;
-    border-radius: 35px;
+    border-radius: 2.1875rem;
 }
 
 .next-card{
     background: none;
-    width: 48px;
-    height: 48px;
-    border-radius: 35px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2.1875rem;
     border: none;
 }
 
@@ -101,14 +99,14 @@
     background: #b5b5b5;
     color: white;
     border: 3px solid #b5b5b5;
-    border-radius: 35px;
+    border-radius: 2.1875rem;
 }
 
 .prev-card{
     background: none;
-    width: 48px;
-    height: 48px;
-    border-radius: 35px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2.1875rem;
     border: none;
 }
 
@@ -116,18 +114,22 @@
     background: #b5b5b5;
     color: white;
     border: 3px solid #b5b5b5;
-    border-radius: 35px;
+    border-radius: 2.1875rem;
 }
 
 .set-image{
-    width: 350px;
-    height: 250px;
-    border-radius: 15px;
+    width: 21.875rem;
+    height: 15.625rem;
+    border-radius: 0.9375rem;
     background-color: #ECE6F0;
     position: relative;
     z-index: -1;
 }
 
+.card-object{
+    padding: 0 2rem 0 2rem;
+    
+}
 .search-bar-section{
     display: flex;
     justify-content: center;
@@ -136,19 +138,24 @@
 }
 
 .set-backdrop{
-    width: 350px;
-    height: 250px;
+    width: 21.875rem;
+    height: 15.625rem;
     background: linear-gradient(to top, rgb(0 0 0 / 0.4), transparent 40%);
     position: relative;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     z-index: 0;
+}
+
+.card-name{
+    text-align: center;
+    text-wrap: balance;
 }
 
 .set-text{
     position: relative;
     top: 75%;
     left:10%;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 700;
     color: white;
 }
@@ -164,7 +171,7 @@
 
 @media(max-width:800px){
     .main-banner{
-        width: 335px;
+        width: 20.9375rem;
         left:10%;
     }
 }

@@ -13,26 +13,26 @@ body{
 
 .main-nav {
     float: right;
-    margin-right: 16px;
+    margin-right: 1rem;
     display: flex;
     align-items: center;
-    line-height: 47px;
+    line-height: 2.9375rem;
 }
 
 .main-nav ul li a{
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: #2C2C2C;
-    padding: 0 10px 0 10px;
+    padding: 0 0.625rem 0 0.625rem;
 }
 
 .main-nav ul li{
-    margin: 0 15px 0 15px;
+    margin: 0 0.9375rem 0 0.9375rem;
 }
 
 .main-nav ul li a:hover{
     border: 3.5px solid #6750A4;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .main-nav ul{
@@ -42,16 +42,16 @@ body{
 }
 
 .main-icon img{
-    width: 60px;
+    width: 3.75rem;
     height: 100%;
-    margin-left: 16px;
-    margin-top: 12px;
+    margin-left: 1rem;
+    margin-top: 0.75rem;
 }
 
 .main-footer .main-icon{
     position: relative;
-    top:35px;
-    left: 16px;
+    top:2.1875rem;
+    left: 1rem;
 }
 
 .main-footer{
@@ -63,15 +63,15 @@ body{
 
 .social-media-nav li{
     float: right;
-    margin-right: 16px;
+    margin-right: 1rem;
     position: relative;
-    bottom: 42px;
+    bottom: 2.625rem;
     display: flex;
     justify-content: space-evenly;
 }
 
 .social-media-nav ul li a{
-    padding: 0 15px 0 15px;
+    padding: 0 0.9375rem 0 0.9375rem;
 }
 
 .hamburger-menu-icon{
@@ -81,7 +81,7 @@ body{
 }
 
 .social-media-icon{
-    width: 40px;
+    width: 2.5rem;
 }
 
 #check{
@@ -101,33 +101,33 @@ body{
 .search-bar input{
     background-color: #ECE6F0;
     border: none;
-    font-size: 24px;
-    width:560px;
+    font-size: 1.5rem;
+    width:35rem;
 
 }
 
 .magnifiying-glass-icon{
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
 }
 
 .magnifiying-glass-icon:hover{
     background-color: #d3d3d3;
-    width: 48px;
-    height: 48px;
-    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3.125rem;
 }
 
 .magnifiying-glass-icon i{
     position: relative;
-    top: 15px;
+    top: 0.9375rem;
 }
 
 .main-card-search{
     background-color: #ECE6F0;
     border: 5px solid #ECE6F0;
-    border-radius: 35px;
-    padding: 10px;
+    border-radius: 2.1875rem;
+    padding: 0.625rem;
 
 }
 
@@ -151,9 +151,7 @@ body{
     }
 
     .social-media-nav li{
-        bottom: 50px;
+        bottom: 3.125rem;
     }
-
-
 
 }
