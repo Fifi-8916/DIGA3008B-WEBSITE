@@ -174,4 +174,13 @@
         width: 20.9375rem;
         left:10%;
     }
+
+    .banner-image{
+        width: 26.5625rem;
+        height: 7.875rem;
+    }
+
+    .general-button {
+        font-size: 1rem;
+    }
 }
