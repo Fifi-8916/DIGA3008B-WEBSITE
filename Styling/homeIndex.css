@@ -32,18 +32,35 @@
     padding: 5px;
 }
 
+.set-magic-card{
+
+    flex-shrink: 0;
+    padding: 5px;
+}
+
 .main-set-carousel{
     position: relative;
     display: flex;
     flex-direction: column;
     top:13%;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: visible;
 
 }
 
 .carousel-container{
     display: flex;
     flex-direction: row;
+}
+
+.card-carousel{
+    display: flex;
+    flex-direction: row;
+}
+
+.next{
+    background: none;
 }
 
 .set-image{
@@ -80,7 +97,14 @@
     color: white;
 }
 
-
+.sets-sliders{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 14%;
+}
 
 @media(max-width:800px){
     .main-banner{

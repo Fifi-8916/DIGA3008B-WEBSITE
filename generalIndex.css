@@ -2,6 +2,8 @@ body{
     font-family: jost, sans-serif;
     height: 100vh;
     margin: 0;
+    padding-bottom: 50%; 
+    overflow-y: visible;
 }
 
 .main-header{
@@ -128,6 +130,7 @@ body{
     padding: 10px;
 
 }
+
 @media(max-width: 800px){
     .main-nav ul{
         flex-direction: column;
